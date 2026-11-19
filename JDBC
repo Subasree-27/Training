@@ -1,0 +1,28 @@
+JDBC is java api to connect and execute queries with database.
+it is also called as thin driver.
+
+types of jdbc drivers:
+*jdbc-odbc bridge driver
+*native driver
+*network protocol driver
+*thin driver
+
+Java database connectivity:
+1)Register driver
+2)Create connection
+3)Create statement
+4)Execute queries
+5)Close connection
+
+JDBC Methods:
+prepareStatement()	- prepares an SQl query
+setInt()	- sets an integer value
+setString()	- sets an string value
+setLong()	- sets an long value
+executeUpdate()	- executes INSERT, UPDATE and DELETE
+executeQuery()	- executes SELECT
+ResultSet	- holds the retrieved records
+rs.next()	- moves to the next record
+
+
+jar file- java archieve file
